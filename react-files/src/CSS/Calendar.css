@@ -1,0 +1,116 @@
+.Calendar{
+  min-width: 100vw;
+  min-height: 100vh;
+  color: black;
+  background-image: url("../Photos/background4.jpg") ;
+}
+.Calendar h5{
+  margin: 0.2%;
+  font-family: "verdana";
+
+}
+.Calendar h6{
+  margin: 0%;
+}
+.Calendar #addEvent{
+  text-align: right;
+  padding-right: 40%;
+}
+
+
+.Calendar #copy_but{
+  background-color: rgb(145, 0, 0);
+  color: white;
+  font-family: "verdana";
+  font-size: 90%;
+  border-radius: 10%;
+  margin-top:8px;
+}
+.Calendar #add_but{
+  background-color: rgb(145, 0, 0);
+  color: white;
+  font-family: "verdana";
+  font-size: 80%;
+  border-radius: 10%;
+  margin-top:8px;
+}
+
+.Calendar #addCalendar a{
+  font-size: 0.85em;
+}
+
+.Calendar h3{
+  margin: 0%;
+  color: #74031b;
+  font-family: "verdana";
+}
+.Calendar h1{
+  margin-top: 0%;
+  font-family: "verdana";
+}
+.Calendar h4{
+  margin-top: 12px;
+  margin-bottom: 0.5%;
+  color: #74031b;
+  font-family: "verdana";
+}
+#go_home_fromcalendar{
+  background-color: rgb(145, 0, 0);
+  color: white;
+  font-family: "verdana";
+  font-size: 60%;
+  position: fixed;
+  left:1%;
+  bottom: 11%;
+  border-radius: 10%;
+}
+
+.Calendar iframe{
+    border: 0px;
+    width: 60vw;
+    height: 70vh;
+    margin-bottom: 5%;
+  }
+
+  .Calendar button{
+  background-color: transparent;
+  border: none;
+}
+
+
+.Calendar #icons{
+  display: flex;
+  position: fixed;
+  right: 1%;
+  bottom: 10%;
+  align-items: center;
+  justify-content: center;
+}
+.Calendar button img{
+  background-color: transparent;
+  border: none;
+  width: 40px;
+  height: 40px;
+ 
+}
+.Calendar button:hover{
+  cursor: pointer;
+}
+
+.events{
+  /* color:#74031b; */
+  font-family:"verdana";
+  margin-left: 6px;
+}
+
+#formAddEvent input{
+  
+  margin-bottom: 5px;
+}
+
+#formAddEvent label{
+  font-size: 0.83em;
+  margin-bottom: 5px;
+}
+
+

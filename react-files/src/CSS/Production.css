@@ -1,0 +1,77 @@
+.Production{
+  display: inline-block;
+  width: 11%;
+  height: 1%;
+  margin: 2%;
+  padding: 0.5%;
+  border-radius: 5%;
+  background-color:white; 
+  /* border: #424649dc;
+  border-width: 5px;
+  border-style: solid; */
+  color:black;
+  font-size: 70%;
+  z-index: -800;
+}
+.Production #linkName{
+  
+  align-self: center;
+  width: 1%;
+  height: 1%;
+  font-size: 70%;
+  color: "black";
+  
+}
+.Production #add_archive img{
+  width: 20px;
+  height: 20px;
+}
+.HomePage #add_archive:hover .tooltiptext{
+  background-color:black;
+  color: white;
+  visibility: visible;
+}
+
+.Production .smallButton img{
+  width: 20px;
+  height: 20px;  
+}
+
+.Production button{
+    background-color: transparent;
+    border: none;
+}
+
+.Production #add_archive:hover .tooltiptext{
+    background-color: black; 
+    visibility: visible;
+  }
+
+#add_archive{
+  float: left;
+}
+.Production .smallButton:hover .tooltiptext{
+    /* background-color: #424649dc; */
+    visibility: visible;
+  }
+  
+  .Production #linkName:hover .tooltiptextname{
+    visibility: visible;
+    color: white;
+    background-color: black;
+  }
+
+  .Production .tooltiptextname {
+    visibility: hidden;
+    width: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 5;
+  }
+

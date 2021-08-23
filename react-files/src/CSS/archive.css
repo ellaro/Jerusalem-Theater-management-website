@@ -1,0 +1,24 @@
+#go_home_fromarchive{
+  background-color: rgb(145, 0, 0);
+  color: white;
+  font-family: "verdana";
+  font-size: 60%;
+  position: fixed;
+  left:1%;
+  bottom: 10%;
+  border-radius: 10%;
+}
+
+.Production .tooltiptextname {
+  visibility: hidden;
+  width: 100px;
+  background-color: rgb(15, 1, 1);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}

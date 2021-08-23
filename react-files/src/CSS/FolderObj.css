@@ -1,0 +1,48 @@
+.Folder{
+  display: inline-block;
+  width: 11%;
+  height: 60%;
+  margin-top: 1%;
+  padding: 1%;
+  border-radius: 5%; 
+  background-image: url('../Photos/folder.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 70%;
+}
+
+#but_span{
+visibility: hidden;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+
+#but:hover #but_span{
+visibility: visible;
+}
+.Folder #but{
+color: white;
+font-size: 70%;
+}
+#go_home{
+border-radius: 50%;
+background-color: rgb(145, 0, 0);
+font-family:"verdana";
+color: white;
+height:36px;
+text-align: center;
+border-radius: 6px;
+margin: 2%;
+position: absolute;
+left:0%;
+bottom:7%;
+}
+
