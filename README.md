@@ -1,4 +1,4 @@
-##### Developers: Doron Chapnitsky, Yaniv Gilad, Yael Liberman and Ella Rosenberg.
+##### Developers: Ella Rosenberg, Doron Chapnitsky, Yaniv Gilad and Yael Liberman.
 
 # Jerusalem Theater Group
 ### Group description
